@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./stayl.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 </head>
 
 <body>
@@ -17,11 +18,13 @@
            <a href="index.html">
             <img class=" logo " src="./logo city.gif " alt="">
            </a>
+           
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="offcanvas offcanvas-end text-bg-dark bg-black" tabindex="-1" id="offcanvasDarkNavbar"
                 aria-labelledby="offcanvasDarkNavbarLabel">
                 <div class="offcanvas-header">
@@ -47,38 +50,50 @@
                 </div>
             </div>
         </div>
+
     </nav>
+    <h1 class="branding  w-100 pt-5">
+    <span class="text-wrapper">
+      <span class="letters">Welcome To The <br> City !!</span>
+      <span class="line"></span>
+    </span>
+  </h1>
 
     <div class="container-fluid justify-content-center pt-5 pb-5  ">
 
         <div class="row">
 
-            <div class="column one">
-                <img src="./Photo/1.jpeg">
-                <img src="./Photo/1.jpeg">
+            <div class="column">
+                <img src="./hero/4.jpeg">
+                <img src="./hero/2.jpeg">
             </div>
 
-            <div class="column one ">
-                <img src="./Photo/1.jpeg">
-                <img src="./Photo/1.jpeg">
+            <div class="column">
+                <img src="./hero/3.jpeg">
+                <img src="./hero/1.jpeg">
             </div>
 
-            <div class="column one">
-                <img src="./Photo/1.jpeg">
-                <img src="./Photo/1.jpeg">
+            <div class="column">
+                <img src="./hero/5.jpeg">
+                <img src="./hero/6.jpeg">
             </div>
-            <div class="column one">
-                <img src="./Photo/1.jpeg">
-                <img src="./Photo/1.jpeg">
+            <div class="column">
+                <img src="./hero/7.jpeg">
+                <img src="./hero/8.jpeg">
             </div>
         </div>
         <a href="" style="color: #ff5114;"><i class=" pt-4 fa-brands fa-instagram fa-bounce fa-2xl" style="color: #000000;"></i> <h4>Instagram</h4> </a>
     </div>
 
+    <h1 class="branding  w-100 pt-5">
+        <span class="text-wrapper">
+          <span class="letters">We Are a Bonch Of Creatores / Artist & Prodection Nerds</span>
+          <span class="line"></span>
+        </span>
+      </h1>
+
     <div class="container text-center pt-3 pb-5">
-        <div class="row justify-content-center pb-5">
-            <h1 style="color: #ff5114;">We are a bonch of creatores / artist & prodection nerds</h1>
-        </div>
+ 
 
         <div class="row justify-content-start">
             <div class="col-4">
@@ -128,39 +143,65 @@
 
 
 
-
-    <footer class="pt-1 pb-5 bg-black    " style="color: #ff5114;">
-
-        <div class="container-fluid  pt-5">
-            <div class="row g-0 text-center justify-content-evenly ">
-                <div class="col-sm-4 col-md-4  ">
-                    <img class="img-fluid w-50" src="./logo city.gif" alt="">
-                </div>
-                <div class="col-4 col-md-4 ">
-                    <h5>follow us</h5>
-
-                    <h6>face book</h6>
-                    <h6>instagram</h6>
-
-                </div>
-                <div class="col-4 col-md-4">
-
-                    <h5>General</h5>
-
-                    <h6>info@</h6>
-                    <h6>mail@</h6>
-
-                </div>
-
-            </div>
-        </div>
-
-
-    </footer>
-
+    <div class="footer">
+        <div class="container">     
+            <div class="row">            
+         
+                <div class="col-lg-3 col-sm-3 col-xs-12">
+                    <div class="single_footer">
+                        <h4>Follow Us</h4>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                            <li><a href="#"><i class="fa-brands fa-vimeo"></i> Vimeo </a></li>
+                            <li><a href="#"><i class="fa-brands fa-square-behance"></i> Behance</a></li>
+                            <li><a href="#"><i class="fa-brands fa-pinterest"></i> Pinterest</a></li>
+                        </ul>
+                    </div>
+                </div><!--- END COL --> 
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="single_footer single_footer_address">
+                        <h4>Quick Link</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Gigs.html">Gigs</a></li>
+                            <li><a href="About.html">About</a></li>
+                            <li><a href="Contact.html">Contact </a></li>
+                 
+                        </ul>
+                    </div>
+                </div><!--- END COL -->
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="single_footer single_footer_address">
+                        <h4>Subscribe today</h4>
+                        <div class="signup_form">                           
+                            <form action="#" class="subscribe">
+                                <input type="text" class="subscribe__input" placeholder="Enter Email Address">
+                                <button type="button" class="subscribe__btn"><i class="fas fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="social_profile">
+<p>                We’re a production house that says ‘Amen’ to solid work and invites great briefs and
+    money-owning-film-loving people to our dinner table.</p>
+                    </div>      
+                                        
+                </div><!--- END COL -->  
+                <div class="col-md-3 col-sm-3 col-xs-12 fot_log">
+                    <img class="img-fluid " src="./logo city.gif" alt="">
+                </div>         
+            </div><!--- END ROW --> 
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-xs-12">
+                    <p class="copyright">Copyright © 2024 <a href="#">CityBoysFilms</a>.</p>
+                </div><!--- END COL -->                 
+            </div><!--- END ROW -->                 
+        </div><!--- END CONTAINER -->
+    </div>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/all.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
