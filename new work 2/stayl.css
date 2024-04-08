@@ -130,6 +130,29 @@ a {
   padding: 0 8px;
 }
 
+
+
+.adc{
+width: 100%;
+margin: 0 ;
+padding: 0;
+}
+
+
+
+.adc .supp{
+margin: 0px;
+padding: 0px;
+
+}
+
+
+.adc .supp .logo-supp{
+  margin: 0;
+  padding: 0;
+}
+
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
